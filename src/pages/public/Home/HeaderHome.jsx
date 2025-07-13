@@ -1,7 +1,7 @@
 import React, { useRef, useState, useEffect, useCallback, useMemo } from "react";
 import { useTranslation } from "react-i18next";
 import { Link, useNavigate } from "react-router-dom"; // Added useNavigate
-import { homeContent } from "../../../config/content";
+import { homeContent } from "@config/content";
 import khosma from "/khomsa.png";
 
 function HeaderHome() {

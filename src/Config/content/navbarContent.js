@@ -3,7 +3,7 @@
  * This file centralizes all text content for easier management and localization
  */
 
-export const navbarContent = {
+const navbarContent = {
   // Common navbar elements
   common: {
     logo: {

@@ -3,14 +3,18 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig(() => {
   return {
-    assetsInclude: "**/*.JPG",
+    // Inclure aussi les fichiers JPG (attention à la casse : ici, tu as "**/*.JPG", souvent c'est en minuscules)
+    assetsInclude: ["**/*.JPG", "**/*.jpg"],
+
     build: {
       outDir: 'build',
     },
+
     plugins: [react()],
+
     server: {
-      host: '0.0.0.0', // Allows external access
-      port: process.env.PORT || 4200, // Uses dynamic port or defaults to 4200
+      host: '0.0.0.0', // Pour accès externe (ex: sur Render)
+      port: Number(process.env.PORT) || 4200, // Assure que c'est un nombre
       proxy: {
         '/api': {
           target: 'https://komita-backend.onrender.com',

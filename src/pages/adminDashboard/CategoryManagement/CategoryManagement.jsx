@@ -9,7 +9,7 @@ import {
   createCategory,
   updateCategory,
   deleteCategory,
-} from "../../../Services/CategoryService";
+} from "./../../../Services/categoryService";
 import {
   createSubcategory,
   deleteSubcategory,

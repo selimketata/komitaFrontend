@@ -2,7 +2,7 @@ import {axiosInstanceWithToken} from './../api/axios';
 import axios from 'axios';
 
 // Define API URL - use import.meta.env for Vite projects
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8085/api/v1';
+const API_URL = import.meta.env.VITE_API_URL || 'https://komitabackend.onrender.com/api/v1';
 
 // Get all services
 export const getAllServices = async () => {

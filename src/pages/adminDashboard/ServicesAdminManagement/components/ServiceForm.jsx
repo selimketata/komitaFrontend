@@ -655,7 +655,7 @@ const ServiceForm = ({
           {safeFormData.images.map((image, index) => (
             <div key={index} className="relative group aspect-square">
               <img
-                src={image.id ? `http://localhost:8085/api/v1/images/${image.id}/data` : image.preview}
+                src={image.id ? `https://komitabackend.onrender.com/api/v1/images/${image.id}/data` : image.preview}
                 alt={`Image ${index + 1}`}
                 className="w-full h-full object-cover rounded-lg"
               />

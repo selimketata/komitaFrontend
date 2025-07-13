@@ -161,7 +161,7 @@ export default function EditServiceProfessionnalManagement() {
     <div className="relative aspect-square rounded-lg overflow-hidden group">
       <img 
         src={photo.id 
-          ? `http://localhost:8085/api/v1/images/${photo.id}/data`
+          ? `https://komitabackend.onrender.com/api/v1/images/${photo.id}/data`
           : (photo.preview || (photo.imageData ? `data:${photo.contentType};base64,${photo.imageData}` : '/assets/default-image.png'))} 
         alt="Service" 
         className="w-full h-full object-cover"

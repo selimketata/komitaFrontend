@@ -120,7 +120,7 @@ function ServiceDetails() {
   };
 
   // Define API URL - use import.meta.env for Vite projects
-  const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8085/api/v1';
+  const API_URL = import.meta.env.VITE_API_URL || 'https://komitabackend.onrender.com/api/v1';
 
   // Add useEffect to scroll to top when component mounts
   useEffect(() => {
@@ -493,7 +493,7 @@ function ServiceDetails() {
                       <img 
                         src={typeof owner.profileImage === 'string' && owner.profileImage.startsWith('/9j/') 
                           ? `data:image/jpeg;base64,${owner.profileImage}`
-                          : `http://localhost:8085/api/v1/images/${owner.profileImage}/data`
+                          : `https://komitabackend.onrender.com/api/v1/images/${owner.profileImage}/data`
                         }
                         alt={owner.firstname || owner.firstName}
                         className="w-full h-full object-cover"

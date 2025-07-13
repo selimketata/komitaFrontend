@@ -29,7 +29,7 @@ function SimilarServices({ services, content }) {
               <img 
                 src={failedImages[service.id] ? '/assets/default-image.png' : 
                      (service.images && service.images.length > 0 ? 
-                      `http://localhost:8085/api/v1/images/${service.images[0].id}/data` : 
+                      `https://komitabackend.onrender.com/api/v1/images/${service.images[0].id}/data` : 
                       '/assets/default-image.png')}
                 alt={service.name}
                 className="w-full h-full object-cover"

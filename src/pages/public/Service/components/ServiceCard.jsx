@@ -24,17 +24,17 @@ const ServiceCard = ({
         // If we have the full service object
         if (service) {
             if (service.images && service.images.length > 0) {
-                return `http://localhost:8085/api/v1/images/${service.images[0].id}/data`;
+                return `https://komitabackend.onrender.com/api/v1/images/${service.images[0].id}/data`;
             }
         }
         
         // Otherwise use the props passed individually
         if (imageId) {
-            return `http://localhost:8085/api/v1/images/${imageId}/data`;
+            return `https://komitabackend.onrender.com/api/v1/images/${imageId}/data`;
         }
         
         if (primaryImageId) {
-            return `http://localhost:8085/api/v1/images/${primaryImageId}/data`;
+            return `https://komitabackend.onrender.com/api/v1/images/${primaryImageId}/data`;
         }
         
         // Default image as fallback
@@ -89,7 +89,7 @@ const ServiceCard = ({
                                 <div className="w-8 h-8 rounded-full bg-gray-200 overflow-hidden mr-2">
                                     {professionalProfileImage ? (
                                         <img 
-                                            src={`http://localhost:8085/api/v1/images/${professionalProfileImage}/data`} 
+                                            src={`https://komitabackend.onrender.com/api/v1/images/${professionalProfileImage}/data`} 
                                             alt={professionalName}
                                             className="w-full h-full object-cover"
                                             onError={(e) => {
@@ -166,7 +166,7 @@ const ServiceCard = ({
                                 <div className="w-8 h-8 rounded-full bg-gray-200 overflow-hidden mr-2">
                                     {professionalProfileImage ? (
                                         <img 
-                                            src={`http://localhost:8085/api/v1/images/${professionalProfileImage}/data`} 
+                                            src={`https://komitabackend.onrender.com/api/v1/images/${professionalProfileImage}/data`} 
                                             alt={professionalName}
                                             className="w-full h-full object-cover"
                                             onError={(e) => {

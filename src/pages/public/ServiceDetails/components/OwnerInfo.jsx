@@ -28,11 +28,11 @@ function OwnerInfo({ owner, content }) {
       }
       
       // Otherwise assume it's an image ID
-      return `http://localhost:8085/api/v1/images/${owner.profileImage}/data`;
+      return `https://komitabackend.onrender.com/api/v1/images/${owner.profileImage}/data`;
     }
     
     // Otherwise assume it's an image ID
-    return `http://localhost:8085/api/v1/images/${owner.profileImage}/data`;
+    return `https://komitabackend.onrender.com/api/v1/images/${owner.profileImage}/data`;
   };
 
   const handleImageError = () => {

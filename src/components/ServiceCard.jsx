@@ -85,7 +85,7 @@ const ServiceCard = ({
       
       // 1. First check if we have an imageId prop
       if (imageId) {
-        const imageUrl = `http://localhost:8085/api/v1/images/${imageId}/data`;
+        const imageUrl = `https://komitabackend.onrender.com/api/v1/images/${imageId}/data`;
         const exists = await checkImageExists(imageUrl);
         if (exists) {
           setServiceImage(imageUrl);
@@ -96,7 +96,7 @@ const ServiceCard = ({
       
       // 2. Check for primaryImageId
       if (primaryImageId) {
-        const imageUrl = `http://localhost:8085/api/v1/images/${primaryImageId}/data`;
+        const imageUrl = `https://komitabackend.onrender.com/api/v1/images/${primaryImageId}/data`;
         const exists = await checkImageExists(imageUrl);
         if (exists) {
           setServiceImage(imageUrl);
@@ -110,7 +110,7 @@ const ServiceCard = ({
         try {
           const images = await getAllImagesForService(id);
           if (images && images.length > 0) {
-            const imageUrl = `http://localhost:8085/api/v1/images/${images[0].id}/data`;
+            const imageUrl = `https://komitabackend.onrender.com/api/v1/images/${images[0].id}/data`;
             const exists = await checkImageExists(imageUrl);
             if (exists) {
               setServiceImage(imageUrl);
@@ -254,7 +254,7 @@ const ServiceCard = ({
               ) : (
                 // If it's an ID, fetch from API
                 <img 
-                  src={`http://localhost:8085/api/v1/images/${professionalProfileImage}/data`} 
+                  src={`https://komitabackend.onrender.com/api/v1/images/${professionalProfileImage}/data`} 
                   alt={professionalName || "Professional"}
                   className="w-[24px] h-[24px] sm:w-[32px] sm:h-[32px] rounded-full mr-2 object-cover"
                   onError={(e) => {

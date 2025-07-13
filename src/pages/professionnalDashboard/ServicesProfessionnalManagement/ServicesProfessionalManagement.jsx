@@ -173,7 +173,7 @@ const Service = ({ currService, id, handleDelete }) => {
           <img
             className="h-64 lg:h-80 w-full object-cover"
             src={currService.images && currService.images.length > 0 
-              ? `http://localhost:8085/api/v1/images/${currService.images[0].id}/data`
+              ? `https://komitabackend.onrender.com/api/v1/images/${currService.images[0].id}/data`
               : '/assets/default-image.png'}
             alt={currService.name}
             onError={(e) => {

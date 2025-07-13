@@ -129,7 +129,7 @@ function RecentServices() {
         
         // Safely access nested properties based on the actual data structure
         const imageUrl = item.primaryImageId
-            ? `http://localhost:8085/api/v1/images/${item.primaryImageId}/data`
+            ? `https://komitabackend.onrender.com/api/v1/images/${item.primaryImageId}/data`
             : '/assets/default-image.png';
             
         const professionalName = item.professionalName || t('common.unknown');

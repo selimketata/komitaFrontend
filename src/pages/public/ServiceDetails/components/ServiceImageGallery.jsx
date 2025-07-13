@@ -49,7 +49,7 @@ function ServiceImageGallery({ images, currentIndex, onImageChange }) {
         <div className={`w-full h-full transition-transform duration-500 ease-in-out`}>
           <img 
             src={images[currentIndex]?.id 
-              ? `http://localhost:8085/api/v1/images/${images[currentIndex].id}/data` 
+              ? `https://komitabackend.onrender.com/api/v1/images/${images[currentIndex].id}/data` 
               : '/assets/default-image.png'}
             alt="Service" 
             className="w-full h-full object-cover transition-all duration-500"
@@ -113,7 +113,7 @@ function ServiceImageGallery({ images, currentIndex, onImageChange }) {
                 >
                   <img 
                     src={images[index]?.id 
-                      ? `http://localhost:8085/api/v1/images/${images[index].id}/data` 
+                      ? `https://komitabackend.onrender.com/api/v1/images/${images[index].id}/data` 
                       : '/assets/default-image.png'}
                     alt={`Thumbnail ${index + 1}`}
                     className="w-full h-full object-cover"

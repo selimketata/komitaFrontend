@@ -13,7 +13,7 @@ import {
   uploadProfileImage
 } from "../../../Services/userService";
 import AddressForm from "./Components/AddressForm";
-import PersonalInfoForm from "./components/PersonalInfoForm";
+import PersonalInfoForm from "./Components/PersonalInfoForm";
 
 import UserTable from "./components/UserTable";
 import UserCard from "./components/UserCard";

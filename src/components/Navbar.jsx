@@ -1,11 +1,12 @@
 import React, { useContext, useState, useEffect } from "react";
 import { AuthContext } from "./../Context/AuthContext";  // Import AuthContext
 import { useLocation } from "react-router-dom"; // Import useLocation to track current page
+
 import NavbarBeforeLogin from "./NavbarBeforeLogin";
 import NavbarAfterLogin from "./NavbarAfterLogin";
 import { useTranslation } from "react-i18next";
 // Fix the import path for navbarContent
-import navbarContent from "../config/content"; 
+import { navbarContent } from "../config/content"; 
 
 const Navbar = () => {
   const { i18n, t } = useTranslation(); // i18n for language switching

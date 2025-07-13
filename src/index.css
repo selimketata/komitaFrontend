@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url( https://fonts.googleapis.com/css?family=Calibri:400,700,400italic,700italic);
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    overflow-x: hidden;
+}
+
+.greyInput{
+    @apply rounded-[15px] bg-[#D9D9D9] border-hidden
+}
+
+

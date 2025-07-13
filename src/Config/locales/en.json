@@ -1,0 +1,543 @@
+{
+  "Home": "Home",
+  "About": "About",
+  "Services": "Services",
+  "Profile": "Profile",
+  "Settings": "Settings",
+  "Logout": "Logout",
+  "Dashboard": "Professional Dashboard",
+  "FindTheBest": "Find the best",
+  "InYourArea": "in your area",
+  "What": "what?",
+  "Where": "where?",
+  "Find": "Find",
+  "legal": "legal services",
+  "doctors": "doctors",
+  "plumbers": "plumbers",
+  "electricians": "electricians",
+  "cleaning": "housekeepers",
+  "real_estate": "real estate agencies",
+  "restaurants": "restaurants",
+  "gyms": "gyms",
+  "travel_agencies": "travel agencies",
+  "mechanics": "mechanics",
+  "kindergartens": "kindergartens",
+  "event_planners": "event planners",
+  
+  "common": {
+    "unknown": "Unknown",
+    "locationNotSpecified": "Location not specified",
+    "service": "Service",
+    "verified": "Verified",
+    "noDescriptionAvailable": "No description available",
+    "dateNotAvailable": "Date not available",
+    "user": "User",
+    "location": "Location",
+    "professional": "Professional"
+  },
+  
+  "about": {
+    "hero": {
+      "title": "Komita",
+      "subtitle": "A world of services, A Tunisian world",
+      "description": "Komita is the concept that connects the Tunisian diaspora in Canada with qualified Tunisian professionals. In a few clicks, access quality services offered by Tunisian experts, while strengthening the links between Canada and Tunisia through a dynamic and innovative network."
+    },
+    "vision": {
+      "title": "Our vision",
+      "description": "To become the main online destination for Tunisians abroad looking for quality professional services, while strengthening ties within the Tunisian community worldwide."
+    },
+    "mission": {
+      "title": "Our mission",
+      "items": {
+        "1": {
+          "text": "Offer a platform that connects Tunisian professionals to their diaspora, making services reliable and accessible."
+        },
+        "2": {
+          "text": "Provide accessibility for Tunisians living abroad to the services of their professional compatriots."
+        },
+        "3": {
+          "text": "Centralize information about Tunisian professionals in a single platform."
+        },
+        "4": {
+          "text": "Offer visibility for Tunisian professionals abroad to the Tunisian Community."
+        }
+      }
+    },
+    "values": {
+      "title": "Our values",
+      "items": {
+        "1": {
+          "title": "Community",
+          "description": "Strengthen the bonds of the Tunisian diaspora."
+        },
+        "2": {
+          "title": "Quality",
+          "description": "A smooth, safe and high-quality experience."
+        },
+        "3": {
+          "title": "Connectivity",
+          "description": "Connect Tunisians from around the world with one click."
+        },
+        "4": {
+          "title": "Integrity",
+          "description": "Transparency and respect in all our actions."
+        },
+        "5": {
+          "title": "Accessibility",
+          "description": "Accessible to everyone, everywhere, without technical limitations."
+        },
+        "6": {
+          "title": "Innovation",
+          "description": "Innovate to meet the needs of the community."
+        }
+      }
+    }
+  },
+  
+  "auth": {
+    "login": {
+      "title": "Log in to Komita",
+      "subtitle": "A world of services, a Tunisian world",
+      "emailLabel": "Email address",
+      "emailPlaceholder": "Enter your email address",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "Enter your password",
+      "rememberMe": "Remember me",
+      "forgotPassword": "Forgot password?",
+      "loginButton": "Log in",
+      "googleLogin": "Log in with Google",
+      "noAccount": "Not registered yet?",
+      "signupLink": "Sign up",
+      "connecting":"Connecting...",
+      "errorMessages": {
+        "invalidCredentials": "Incorrect email or password",
+        "serverError": "An error occurred, please try again"
+      }
+    },
+    "signup": {
+      "title": "Sign up for Komita!",
+      "subtitle": "A world of services, a Tunisian world",
+      "roleSelection": "Choose your role:",
+      "roles": {
+        "user": "User",
+        "professional": "Professional"
+      },
+      "fields": {
+        "firstname": {
+          "label": "First name",
+          "placeholder": "First name"
+        },
+        "lastname": {
+          "label": "Last name",
+          "placeholder": "Last name"
+        },
+        "email": {
+          "label": "Email address",
+          "placeholder": "Email address"
+        },
+        "password": {
+          "label": "Password",
+          "placeholder": "Password"
+        },
+        "confirmPassword": {
+          "label": "Confirm password",
+          "placeholder": "Confirm your password"
+        }
+      },
+      "alreadyRegistered": "Already registered?",
+      "signupButton": "Sign up",
+      "googleSignup": "Sign up with Google",
+      "validationErrors": {
+        "invalidEmail": "Invalid email address.",
+        "weakPassword": "Password must be at least 8 characters long and include uppercase, lowercase, a number, and a special character.",
+        "passwordMismatch": "Passwords do not match."
+      },
+      "successMessage": "Registration successful! An email has been sent to activate your account."
+    },
+    "forgetPassword": {
+      "title": "Forgot password",
+      "subtitle": "Enter your email address to receive a reset link.",
+      "emailLabel": "Email address",
+      "sendButton": "Send link",
+      "sendingButton": "Sending...",
+      "successMessage": "A reset link has been sent to your email address.",
+      "errorMessage": "Failed to send link. Please try again later."
+    },
+    "resetPassword": {
+      "title": "Reset password",
+      "subtitle": "Enter your new password below.",
+      "newPasswordLabel": "New password",
+      "confirmPasswordLabel": "Confirm new password",
+      "resetButton": "Reset",
+      "resettingButton": "Resetting...",
+      "successMessage": "Password has been reset successfully.",
+      "redirectMessage": "You will be redirected to the login page in",
+      "seconds": "seconds",
+      "errorMessages": {
+        "invalidToken": "Invalid or missing reset token.",
+        "passwordMismatch": "Passwords do not match.",
+        "serverError": "Failed to reset password. Please try again later."
+      },
+      "passwordStrength": {
+        "strong": "Strong password",
+        "requirements": "Password must be at least 8 characters long and include uppercase, lowercase, a number, and a special character."
+      }
+    }
+  },
+  
+  "home": {
+    "header": {
+      "title": {
+        "prefix": "Find the best",
+        "suffix": "in your area"
+      },
+      "searchSection": {
+        "whatPlaceholder": "What are you looking for?",
+        "wherePlaceholder": "Where?",
+        "findButton": "Search"
+      }
+    },
+    "popularServices": {
+      "title": "Most popular services!",
+      "viewDetailsButton": "View details",
+      "emptyMessage": "No popular services available at the moment."
+    },
+    "recentServices": {
+      "title": "Most recent services!",
+      "viewDetailsButton": "View details",
+      "emptyMessage": "No recent services available at the moment."
+    },
+    "forProfessionals": {
+      "title": "Join Our Professional Komita",
+      "description": "Join our community of Tunisian professionals and connect with the diaspora. Increase your visibility and grow your business by offering your services on our platform.",
+      "signupButton": "Sign up"
+    },
+    "aboutSection": {
+      "title": "Explore our universe!",
+      "subtitle": "Discover what makes Komita a unique platform",
+      "description": "Komita is the platform that connects the Tunisian diaspora with qualified Tunisian professionals. In a few clicks, access quality services offered by Tunisian experts, while strengthening ties within the community.",
+      "readMore": "→ Read more..."
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "subtitle": "Find quick answers to your questions",
+      "questions": [
+        {
+          "question": "How can I register as a professional?",
+          "answer": "You can register as a professional by clicking the 'Sign up' button and selecting the 'Professional' role during registration."
+        },
+        {
+          "question": "How can I find a specific service?",
+          "answer": "Use the search bar at the top of the home page to search for a specific service by keyword and location."
+        },
+        {
+          "question": "Are services verified?",
+          "answer": "Yes, all professionals go through a verification process to ensure the quality of services offered."
+        },
+        {
+          "question": "How can I contact a professional?",
+          "answer": "You can contact a professional directly from their service page by clicking the 'Contact' button."
+        },
+        {
+          "question": "Can I leave a review for a service?",
+          "answer": "Yes, after using a service, you can leave a review and rating to help other users."
+        },
+        {
+          "question": "How do I edit my profile information?",
+          "answer": "You can edit your profile information by accessing your account and clicking on 'Settings'."
+        }
+      ]
+    }
+  },
+  
+  "navbar": {
+    "common": {
+      "logo": {
+        "alt": "Komita Logo"
+      },
+      "languageSelector": {
+        "label": "Language"
+      }
+    },
+    "afterLogin": {
+      "profileMenu": {
+        "title": "My Profile",
+        "upgradeButton": "Become a Professional",
+        "upgradeConfirm": "Are you sure you want to become a professional?",
+        "upgradeSuccess": "Your account has been successfully upgraded!",
+        "upgradeError": "Failed to upgrade account. Please try again."
+      }
+    },
+    "footer": {
+      "taglines": {
+        "first": "A world of services",
+        "second": "A Tunisian world"
+      },
+      "pages": {
+        "title": "Pages",
+        "home": "Home",
+        "about": "About",
+        "services": "Services"
+      },
+      "contact": {
+        "title": "Contact"
+      },
+      "newsletter": {
+        "title": "Newsletter",
+        "description": "Stay updated with our latest services and news!",
+        "placeholder": "Subscribe to our newsletter",
+        "button": "Send"
+      },
+      "social": {
+        "title": "Contact us!"
+      },
+      "copyright": "© 2024 Komita Tunisia. All Rights Reserved"
+    }
+  },
+  
+  
+  "service": {
+    "searchBar": {
+      "title": "Find the service you need",
+      "searchFields": {
+        "whatPlaceholder": "What are you looking for?",
+        "wherePlaceholder": "Where? (city, postal code...)",
+        "findButton": "Find"
+      }
+    },
+    "mainContent": {
+      "title": "Find the service you need, wherever you are!",
+      "slogan": "A world of services, a Tunisian world",
+      "subtitle":"Find the service you need, wherever you are!",
+      "sortBy": "Sort by",
+      "sortOptions": {
+        "date": "Date",
+        "name": "Name"
+      },
+      "noResults": {
+        "message": "No services found",
+        "resetButton": "Reset search"
+      }
+    },
+    "sidebar": {
+      "mobileToggle": "Show Filters",
+      "filter":"Filter",
+      "reset":"Reset the filter"
+    },
+    "serviceCard": {
+      "location": "Not specified",
+      "contactButton": "Contact",
+      "professional": "Professional",
+      "viewDetails": "View details"
+    }
+  },
+  
+  "serviceDetails": {
+    "navigation": {
+      "backButton": "Go Back",
+      "backToServices": "Back to Services"
+    },
+    "serviceInfo": {
+      "price": "Price",
+      "category": "Category",
+      "location": "Location",
+      "createdOn": "Created on",
+      "verified": "vérifié",
+      "notVerified": "Not Verified",
+      "addToWishlist": "Add to Favorites",
+      "removeFromWishlist": "Remove from Favorites",
+      "wishlistAdded": "Service added to your favorites",
+      "wishlistRemoved": "Service removed from your favorites",
+      "contactOwner": "Contact the professional",
+      "description": "Description",
+      "address": "Address",
+      "noDescription": "No description available for this service."
+    },
+    "ownerInfo": {
+      "title": "About the Provider",
+      "contactInfo": "Contact Information",
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address",
+      "website": "Website",
+      "description": "Description",
+      "viewProfileButton": "View Profile",
+      "verifiedProvider": "Verified Provider",
+      "defaultDescription": "No description available for this provider."
+    },
+    "similarServices": {
+      "title": "Similar Services",
+      "viewButton": "View",
+      "verified": "Verified",
+      "locationNotSpecified": "Location not specified",
+      "noImageAvailable": "No image available"
+    },
+    "imageGallery": {
+      "noImagesAvailable": "No images available",
+      "previousImage": "Previous image",
+      "nextImage": "Next image"
+    },
+    "contactPopup": {
+      "title": "Contact the Provider",
+      "nameLabel": "Your name",
+      "emailLabel": "Your email",
+      "messageLabel": "Your message",
+      "sendButton": "Send",
+      "cancelButton": "Cancel",
+      "successMessage": "Message sent successfully",
+      "errorMessage": "Error sending message"
+    },
+    "serviceNotFound": {
+      "title": "Service Not Found",
+      "message": "We couldn't find the service you're looking for. It may have been deleted or moved.",
+      "viewAllServices": "View All Services",
+      "backButton": "Back"
+    },
+    "states": {
+      "loading": "Loading...",
+      "error": "An error occurred while loading service details",
+      "serviceNotFound": "Service not found",
+      "componentError": "Error loading components"
+    }
+  },
+
+  "professionalDashboard": {
+    "chooseFile": "Choose a file",
+    "noFileChosen": "No file chosen",
+    "sidebar": {
+      "overview": "Overview",
+      "services": "Services",
+      "profile": "Profile",
+      "home": "Home",
+      "logout": "Logout",
+      "loading": "Loading..."
+    },
+    "servicesManagement": {
+      "title": "Dashboard",
+      "subtitle": "Manage your professional services",
+      "notifications": "Notifications",
+      "services": "Services",
+      "addService": "Add a service",
+      "noServices": "You haven't added any services yet.",
+      "deleteService": "Delete service",
+      "deleteConfirmation": "Are you sure you want to delete the service",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "modify": "Modify",
+      "verified": "Verified",
+      "stateActive":"Active",
+      "stateInactive":"inactive",
+      "stateSuspended":"Suspended",
+      "notificationMessage": "The administrator has verified your new service",
+      "encouragementMessage": "and encourages you to start the adventure!",
+      "serviceCreatedAt": "Created on"
+    },
+    "common": {
+      "accessDenied": "Access Denied",
+      "permissionError": "You do not have the required permissions to view this page.",
+      "login": "Login"
+    },
+    "addService": {
+      "title": "Add a service",
+      "serviceInfo": "Service Information",
+      "serviceName": "Service name",
+      "serviceNamePlaceholder": "Enter your service name",
+      "description": "Description",
+      "descriptionPlaceholder": "Describe your service in detail",
+      "category": "Category",
+      "selectCategory": "Select a category",
+      "subcategory": "Subcategory",
+      "selectSubcategory": "Select a subcategory",
+      "keywords": "Keywords",
+      "keywordsPlaceholder": "Enter a keyword",
+      "addKeyword": "Add a keyword",
+      "address": "Address",
+      "streetNumber": "Street number",
+      "streetName": "Street name",
+      "streetType": "Street type",
+      "province": "Province/State",
+      "postalCode": "Postal code",
+      "city": "City",
+      "country": "Country",
+      "socialLinks": "Social links",
+      "facebookLink": "Facebook link",
+      "instagramLink": "Instagram link",
+      "websiteLink": "Website link",
+      "photos": "Photos",
+      "addPhotos": "Add photos",
+      "dragPhotos": "Drag and drop to reorder",
+      "submit": "Submit",
+      "cancel": "Cancel",
+      "errors": {
+        "serviceName": "Service name is required",
+        "description": "Service description is required",
+        "descriptionLength": "Description must be at least 10 characters long",
+        "descriptionMaxLength": "Description must not exceed 3000 characters",
+        "category": "Category is required",
+        "subcategory": "Subcategory is required",
+        "photos": "At least one photo is required",
+        "photoSize": "Images must not exceed 5MB",
+        "photoType": "Only images are accepted",
+        "keywords": "At least one keyword is required",
+        "categoryFetch": "Error loading categories",
+        "subcategoryFetch": "Error loading subcategories",
+        "formErrors": "Please correct the following errors:"
+      },
+      "success": "Service added successfully",
+      "loading": "Loading...",
+      "submitting": "Submitting...",
+      "chooseFile": "Choose file",
+      "noFileChosen": "No file chosen"
+    },
+    "editService": {
+      "header" : "Service Management",
+      "title": "Edit service",
+      "saveChanges": "Save changes",
+      "success": "Service updated successfully",
+      "backToServices": "Back to services",
+      "loading": "Loading...",
+      "submitting": "Updating..."
+    },
+    "profileManagement": {
+      "title": "Profile Management",
+      "personalInfo": "Personal Information",
+      "edit": "Edit",
+      "save": "Save",
+      "cancel": "Cancel",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phoneNumber":"Phone Number",
+      "phoneNumberFormat":"Please respect the format of telephone numbers",
+      "address": "Address",
+      "streetNumber": "Street Number",
+      "streetName": "Street Name",
+      "streetType": "Street Type",
+      "city": "City",
+      "postalCode": "Postal Code",
+      "province": "Province/State",
+      "country": "Country",
+      "changePhoto": "Change Photo",
+      "changeProfilePhoto": "Change your profile photo",
+      "updatePhoto": "Update Photo",
+      "uploading": "Uploading...",
+      "notSpecified": "Not specified",
+      "noImage": "No image",
+      "noAddress": "No address registered",
+      "saveChanges": "Save Changes",
+      "errors": {
+        "selectImage": "Please select an image",
+        "imageTooLarge": "Image must not exceed 5MB",
+        "imageUpdateFailed": "Error updating profile image",
+        "updateFailed": "Error updating profile"
+      },
+      "success": {
+        "imageUpdated": "Profile image updated successfully",
+        "profileUpdated": "Profile updated successfully"
+      }
+    }
+  }
+}
+
+
+

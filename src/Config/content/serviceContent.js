@@ -42,4 +42,3 @@ export const serviceContent = {
   }
 };
 
-export default serviceContent;

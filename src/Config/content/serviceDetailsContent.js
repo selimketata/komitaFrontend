@@ -92,4 +92,3 @@ export const serviceDetailsContent = {
   }
 };
 
-export default serviceDetailsContent;

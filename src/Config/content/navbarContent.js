@@ -56,4 +56,3 @@ export const navbarContent = {
   }
 };
 
-export default navbarContent;

@@ -17,7 +17,7 @@ import PersonalInfoForm from "./Components/PersonalInfoForm";
 import Pagination from "./Components/Pagination";
 import EmailTooltip from "./Components/EmailTooltip";
 import { formatAddress, parseStreetAddress } from "./utils";
-import UserTable from "./components/UserTable";
+import UserTable from "./Components/UserTable";
 import UserCard from "./Components/UserCard";
 
 

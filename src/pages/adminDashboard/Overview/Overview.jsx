@@ -13,7 +13,7 @@ import {
 } from "lucide-react";
 import { getAllServices } from "../../../Services/serviceService";
 import { getAllUsers } from "../../../Services/userService";
-import { getAllCategories } from "../../../Services/CategoryService";
+import { getAllCategories } from "../../../Services/categoryService";
 import { getSubcategoriesByCategoryId } from "../../../Services/subCategoryService";
 
 const Overview = () => {

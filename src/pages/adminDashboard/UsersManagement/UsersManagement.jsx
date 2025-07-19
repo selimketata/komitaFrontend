@@ -14,11 +14,12 @@ import {
 } from "../../../Services/userService";
 import AddressForm from "./Components/AddressForm";
 import PersonalInfoForm from "./Components/PersonalInfoForm";
-import UserCard from "./components/UserCard";
 import Pagination from "./components/Pagination";
 import EmailTooltip from "./components/EmailTooltip";
 import { formatAddress, parseStreetAddress } from "./utils";
 import UserTable from "./components/UserTable";
+import UserCard from "./Components/UserCard";
+
 
 // Set the app element for React Modal
 ReactModal.setAppElement('#root');

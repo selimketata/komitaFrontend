@@ -4,7 +4,7 @@
  * to facilitate translation and content management
  */
 
-export const professionalDashboardContent = {
+const professionalDashboardContent = {
   sidebar: {
     services: "Services",
     profile: "Profile",
@@ -79,3 +79,5 @@ export const professionalDashboardContent = {
     login: "Se connecter"
   }
 };
+
+export default professionalDashboardContent;

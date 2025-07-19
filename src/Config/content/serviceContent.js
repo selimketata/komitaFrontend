@@ -3,7 +3,7 @@
  * This file centralizes all text content for easier management and localization
  */
 
-export const serviceContent = {
+const serviceContent = {
   // Hero section
   hero: {
     title: "Trouvez ce que vous désirez, exactement où vous le désirez!",

@@ -3,7 +3,7 @@
  * This file centralizes all text content for easier management and localization
  */
 
-export const authContent = {
+const authContent = {
   // Login page content
   login: {
     title: "Connectez-vous à Komita",

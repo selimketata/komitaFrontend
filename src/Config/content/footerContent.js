@@ -3,7 +3,7 @@
  * This file centralizes all text content for easier management and localization
  */
 
-export const footerContent = {
+const footerContent = {
   // Taglines
   taglines: {
     first: "Un monde de services",

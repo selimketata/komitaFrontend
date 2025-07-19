@@ -14,8 +14,8 @@ import {
 } from "../../../Services/userService";
 import AddressForm from "./Components/AddressForm";
 import PersonalInfoForm from "./Components/PersonalInfoForm";
-import Pagination from "./components/Pagination";
-import EmailTooltip from "./components/EmailTooltip";
+import Pagination from "./Components/Pagination";
+import EmailTooltip from "./Components/EmailTooltip";
 import { formatAddress, parseStreetAddress } from "./utils";
 import UserTable from "./components/UserTable";
 import UserCard from "./Components/UserCard";

@@ -1,5 +1,5 @@
 import React from "react";
-import { aboutContent } from "../../../Config/content/aboutContent";
+// import { aboutContent } from "../../../Config/content/aboutContent";
 import { useTranslation } from "react-i18next";
 
 function About() {

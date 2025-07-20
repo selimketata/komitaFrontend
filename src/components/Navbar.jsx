@@ -5,8 +5,8 @@ import { useLocation } from "react-router-dom"; // Import useLocation to track c
 import NavbarBeforeLogin from "./NavbarBeforeLogin";
 import NavbarAfterLogin from "./NavbarAfterLogin";
 import { useTranslation } from "react-i18next";
-// Fix the import path for navbarContent
-import { navbarContent } from "../config/content/navbarContent.js"; 
+// Import with correct case sensitivity
+import { navbarContent } from "../Config/content/navbarContent"; 
 
 const Navbar = () => {
   const { i18n, t } = useTranslation(); // i18n for language switching

@@ -50,3 +50,5 @@ const footerContent = {
   // Copyright
   copyright: "© 2024 Komita Tunisie. Tous droits réservés"
 };
+
+export default footerContent;

@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 // Fixing the import path to correctly point to the footerContent file
-import { footerContent } from "../../config/content/index.js";
+import { footerContent } from "@config/content/index.js";
 function Footer() {
   const { t } = useTranslation();
   

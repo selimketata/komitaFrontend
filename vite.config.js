@@ -10,7 +10,7 @@ export default defineConfig(() => ({
   plugins: [react()],
   resolve: {
     alias: {
-      '@config': path.resolve(__dirname, 'Config'),
+      '@config': path.resolve(__dirname, 'config'),
     },
   },
   server: {

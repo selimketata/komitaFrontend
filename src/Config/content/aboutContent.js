@@ -19,7 +19,7 @@ import bac from "/backg komita.png";
 import flag from "/Capture 1.png";
 import logo from "/komita.png";
 
-const aboutContent = {
+export const aboutContent = {
   // Images and icons object to export all image references
   images: {
     man,
@@ -122,4 +122,3 @@ const aboutContent = {
   }
 };
 
-export default aboutContent;

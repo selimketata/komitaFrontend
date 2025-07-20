@@ -4,7 +4,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../Context/AuthContext';
 import { getAllImagesForService, getImageDataById } from '../Services/serviceService';
 import { useTranslation } from 'react-i18next';
-// import  {serviceContent}  from '@config/content/serviceContent.js'; // Import serviceContent
+import  {serviceContent}  from '../Config/content/index'; // Import serviceContent
 
 const ServiceCard = ({ 
   id, 

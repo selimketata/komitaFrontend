@@ -3,7 +3,7 @@
  * This file centralizes all text content for easier management and localization
  */
 
-const serviceDetailsContent = {
+export const serviceDetailsContent = {
   // Navigation
   navigation: {
     backButton: "Retourner",
@@ -92,4 +92,3 @@ const serviceDetailsContent = {
   }
 };
 
-export default serviceDetailsContent;

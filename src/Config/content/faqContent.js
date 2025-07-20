@@ -3,7 +3,7 @@
  * This file centralizes all FAQ content for easier management and localization
  */
 
-const faqContent = {
+export const faqContent = {
   title: "Frequently asked questions",
   subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   
@@ -41,4 +41,3 @@ const faqContent = {
   ]
 };
 
-export default faqContent;

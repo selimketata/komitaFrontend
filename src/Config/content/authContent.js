@@ -3,7 +3,7 @@
  * This file centralizes all text content for easier management and localization
  */
 
-const authContent = {
+export const authContent = {
   // Login page content
   login: {
     title: "Connectez-vous à Komita",
@@ -100,4 +100,3 @@ const authContent = {
   }
 };
 
-export default authContent;

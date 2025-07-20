@@ -6,7 +6,7 @@ import NavbarBeforeLogin from "./NavbarBeforeLogin";
 import NavbarAfterLogin from "./NavbarAfterLogin";
 import { useTranslation } from "react-i18next";
 // Import with correct case sensitivity
-// import { navbarContent } from "../Config/content/navbarContent"; 
+import { navbarContent } from "../Config/content/index"; 
 
 const Navbar = () => {
   const { i18n, t } = useTranslation(); // i18n for language switching

@@ -3,7 +3,7 @@
  * This file centralizes all text content for easier management and localization
  */
 
-const homeContent = {
+export const homeContent = {
   // Header section content
   header: {
     title: {
@@ -55,4 +55,3 @@ const homeContent = {
   ]
 };
 
-export default homeContent;

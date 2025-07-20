@@ -6,7 +6,7 @@ import NavbarBeforeLogin from "./NavbarBeforeLogin";
 import NavbarAfterLogin from "./NavbarAfterLogin";
 import { useTranslation } from "react-i18next";
 // Fix the import path for navbarContent
-import { navbarContent } from "@config/content/navbarContent.js"; 
+import { navbarContent } from "./../Config/content/navbarContent.js"; 
 
 const Navbar = () => {
   const { i18n, t } = useTranslation(); // i18n for language switching

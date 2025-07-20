@@ -7,7 +7,7 @@ import { Search, X, Menu, LayoutGrid, Clock, ArrowRight } from "lucide-react";
 import ServiceCard from "../../../components/ServiceCard";
 import SidebarServicesComponent from "../../../components/SidebarServices";
 import Pagination from "../../../components/Pagination";
-import  {serviceContent}  from "@config/content/serviceContent.js";
+import  {serviceContent}  from "./../../../Config/content/serviceContent.js";
 import { useTranslation } from "react-i18next";
 import { AuthContext } from "../../../Context/AuthContext"; // Import AuthContext
 

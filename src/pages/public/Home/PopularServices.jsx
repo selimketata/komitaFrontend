@@ -3,7 +3,7 @@ import { Navigation, Pagination, A11y } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { getPopularProfessionals } from "../../../Services/serviceService";
 import { Link, useNavigate } from "react-router-dom"; // Add useNavigate
-import  homeContent  from "@config/content/homeContent.js";
+// import  homeContent  from "@config/content/homeContent.js";
 import { useTranslation } from 'react-i18next';
 
 // Import Swiper styles

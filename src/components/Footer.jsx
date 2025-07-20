@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 // import { footerContent } from "./../../Config/content/footerContent.js";
 // To:
 // import { footerContent } from "./../../config/content/footerContent";
-import footerContent from "../../../config/content/footerContent.js";
+import {footerContent} from "../../../config/content/footerContent.js";
 
 function Footer() {
   const { t } = useTranslation();

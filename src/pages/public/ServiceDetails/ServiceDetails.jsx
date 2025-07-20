@@ -16,7 +16,7 @@ import ServiceInfo from "./components/ServiceInfo";
 import OwnerInfo from "./components/OwnerInfo";
 import SimilarServices from "./components/SimilarServices";
 import ServiceNotFound from "./components/ServiceNotFound";
-import serviceDetailsContent from '../../../config/content/serviceDetailsContent'; // Import the content
+import serviceDetailsContent from '../../../Config/content/serviceDetailsContent'; // Import the content
 
 function ServiceDetails() {
   const { id } = useParams();

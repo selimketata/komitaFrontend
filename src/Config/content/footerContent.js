@@ -3,7 +3,7 @@
  * This file centralizes all text content for easier management and localization
  */
 
-const footerContent = {
+export const footerContent = {
   // Taglines
   taglines: {
     first: "Un monde de services",
@@ -51,4 +51,3 @@ const footerContent = {
   copyright: "© 2024 Komita Tunisie. Tous droits réservés"
 };
 
-export default footerContent;
